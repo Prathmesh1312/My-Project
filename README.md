@@ -1,4 +1,4 @@
 # E-learning
 E-learning platform to eaiser learning
 <br>
-Author - Prathmesh
+Author - Prathmesh, Dhananjay & Niketan
