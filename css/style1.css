@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h1 {
+  color: #426696;
+  font-weight:400;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+h2 {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+  
+p{
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 0.6rem;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+  
+a{
+  text-decoration: none;
+}  
+
+main {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  max-height: 80vh;
+  width: 80%;
+  border-radius:2rem ;
+}
+.glass {
+    height: 80vh;
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+.circle1,.circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.3)
+        );
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    border-radius: 50%;
+    }
+    
+.circle1 {
+    top: 2.5%;
+    right: 5%;
+}
+
+.circle2 {
+    bottom: 2.5%;
+    left: 5%;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+      );
+  border-radius: 2rem;
+  position: sticky;
+  height: 80vh;
+  overflow: hidden;
+    }
+
+.link {
+  display: flex;
+  margin: 1.5rem 0rem;
+  padding: 0.3rem 1rem;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: rgba(213, 212, 212, 0.3);
+  width: 100%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.link:hover{
+  background-color: rgba(213, 212, 212, 0.9);
+  width: 100%;
+}
+
+
+.dashboard button{
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid #000;
+  width: 80px;
+  height: 30px;
+  font-size: medium;
+
+}
+/* lesson */
+.status {
+    margin-bottom: 2rem;
+}
+
+.status input {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    );
+  border: none;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+    
+.lesson {
+    flex: 2;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+    
+.card {
+    display: flex;
+    background: linear-gradient(
+        to left top,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.5)
+        );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    justify-content: left;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+
+        
+  .cards{
+      overflow: hidden;
+      position: sticky;
+      height: 80vh;
+      position: sticky;
+      overflow-y: scroll;
+}
+
+.cards::-webkit-scrollbar{
+    display: none;
+  }
+  .card-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+  /* ----------------------------------------------------------------------*/
