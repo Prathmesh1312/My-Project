@@ -1,8 +1,8 @@
-var hero = $(".hero_area");
+var container = $(".container");
 var menu = $(".custom_menu-container");
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
-    if (scrollTop > hero.height()) {
+    if (scrollTop > container.height()) {
         menu.addClass("menu_fixed-position");
         $(".custom_menu-container + section").addClass("mt-5");
     } else {
