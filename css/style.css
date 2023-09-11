@@ -47,7 +47,7 @@ body::-webkit-scrollbar{
 
 .custom_heading-container h2::before {
   content: "";
-  width: 60px;
+  width: 250px;
   height: 3px;
   position: absolute;
   left: 0;
@@ -55,18 +55,6 @@ body::-webkit-scrollbar{
   background-color: #6bd1bd;
 }
 
-.custom_heading-container h2::after {
-  content: "";
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: 50%;
-  right: -15px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  background-color: #fb1004;
-  border-radius: 100%;
-}
 
 .slider_section {
   margin-top: -75px;
