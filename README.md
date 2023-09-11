@@ -2,5 +2,3 @@
 E-learning platform to eaiser learning
 <br>
 Author - Prathmesh, Dhananjay & Niketan 
-
-## Hello Dhananjay
