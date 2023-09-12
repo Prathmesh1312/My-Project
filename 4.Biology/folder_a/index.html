@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+        display: flex;
+        flex-direction: row;
+        margin: 2px;
+        align-content: flex-start;
+        }
+        .left{
+            flex: 1;
+            margin-top: 10px;
+        }
+        .left button{
+            border-radius: 2rem;
+            border: 1px solid #000;
+            width: 80px;
+            height: 30px;
+            font-size: medium;
+            background-color: aquamarine;
+            margin-bottom: 6px;
+            margin-left: 4px;
+
+        }
+        .right{
+            flex:2;
+            margin-bottom: 5px;
+            margin-top: 5px;      
+        }
+    </style>
+</head>
+<body style="background-color: rgb(169, 186, 217);">
+    <div class="box">
+        <div class="left"><button onclick="history.back()">Back</button></div>
+        <div class="right"><h1> Respiration and Circulation - TB</h1></div>
+    </div>
+    <iframe src="./Respiration and Circulation - TB.pdf" type=""  style="height: 95vh; width: 100%;"></iframe>
+</body>
+</html>
