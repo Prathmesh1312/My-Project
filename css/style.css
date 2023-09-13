@@ -134,8 +134,8 @@ body::-webkit-scrollbar{
 }
 
 .custom_menu-container {
-  /* background-color: #0caa7d; */
-  background: linear-gradient(to right top, #5bffe1, #217683);
+  background-color: #0caa7d;
+  /* background: linear-gradient(to right top, #5bffe1, #217683); */
 }
 
 .custom_menu-container .container {
