@@ -133,10 +133,22 @@ body::-webkit-scrollbar{
   z-index: 99999999999999999999999999;
 }
 
+
+/* __________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________ */
+
 .custom_menu-container {
   background-color: #0caa7d;
-  /* background: linear-gradient(to right top, #5bffe1, #217683); */
+  /* background-color: #54a2f0; */
+
 }
+
+/* __________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________ */
+/* __________________________________________________________________________________________________ */
+
+
 
 .custom_menu-container .container {
   margin: 0px;
@@ -275,15 +287,6 @@ body::-webkit-scrollbar{
   color: #ffffff;
 }
 
-.skill_section .custom_heading-container h2::before, .skill_section .custom_heading-container h2::after {
-  background-color: #ffffff;
-}
-
-.skill_section .progress_text {
-  font-size: 24px !important;
-  color: #ffffff;
-  font-weight: bold;
-}
 
 .portfolio_section .row .col-md-6 {
   margin: 45px 0;
